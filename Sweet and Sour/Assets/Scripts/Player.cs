@@ -20,7 +20,6 @@ public class Player : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        //healthBar.SetMaxHealth(health);
     }
 
     void Update()
